@@ -1,0 +1,288 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 62.5%;
+    font-weight: 600;
+}
+
+body {
+    background: rgb(16,29,74);
+    background: linear-gradient(90deg, rgb(45, 77, 194) 0%, rgb(83, 110, 197) 5%, rgb(136, 159, 235) 51%, rgb(83, 110, 197) 95%, rgb(45, 77, 194) 100%);
+    padding: 1rem;
+}
+
+.card-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    margin-bottom: 0rem;
+}
+
+.contentAlign {
+    position: relative;
+    z-index: 99;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; justify-content: center;
+    background-color: #D5D5D9;
+    border: groove black;
+    padding: 1rem;
+    width: 25rem;
+}
+.contentAlign * {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+.contentAlign span {
+    width: 24px;
+}
+
+.xurubas * {
+    font-size: 1.3rem;
+}
+
+.arrow-up-display {
+    position: relative;
+    top: 1rem;
+}
+
+#card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 29rem;
+    height: 36rem;
+    cursor: pointer;
+}
+
+.card-style {
+    display: flex;
+    position: absolute;
+    width: 25rem;
+    height: 32rem;
+    font-size: 10rem;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black 0.3rem;
+    border-right: solid black 0.3rem;
+    box-shadow: 0 0 1px 1px black;
+    border-radius: 5rem;
+    user-select: none;
+}
+
+.buttons-align {
+    display: flex;
+    justify-content: center;
+    gap: 2.6rem;
+}
+
+.buttons {
+    font-size: 1.5rem;
+    width: 10rem;
+    border: solid 0.1rem;
+    border-radius: 0.5rem;
+    transition: 100ms;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    background-color: aquamarine;
+}
+
+.buttons:active {
+    background-color: aqua;
+}
+
+#answer {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#frontCard {
+    transform: scale(1);
+    z-index: 1;   
+}
+
+#backCard {
+    transform: scale(0);
+    z-index: 0;
+}
+
+.flip {
+    animation: flip 200ms normal;
+}
+
+.unflip {
+    animation: unflip 200ms normal;
+}
+
+#sendButton {
+    font-size: 1.5rem;
+    border: solid 0.1rem;
+    border-radius: 0.5rem;
+    transition: 100ms;
+    height: 4rem;
+    display: none;
+}
+#sendButton:hover {
+    background-color: aquamarine;
+}
+
+#response {
+    opacity: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+}
+
+#KnowlageLevel {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 2vw;
+    background-color: #D5D5D9;
+    border: groove black 1px;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+#displayClass {
+    font-size: 3.5vw;
+    font-weight: bolder;
+    color: grey;
+}
+
+#displayPoints {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    background-color: #D5D5D9;
+    border: groove black 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#reset {
+    color: red;
+    width: 10rem;
+    height: 3rem;
+    font-weight: 600;
+    background-color: darkred;
+    border-radius: 1rem;
+    transition: 100ms;
+}
+#reset:hover {
+    color: darkred;
+    background-color: red;
+}
+
+.otherPageBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3rem;
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 1rem;
+    background-color: #D5D5D9;
+    transition: 100ms;
+}
+
+.otherPageBtn:hover {
+    background-color: aquamarine;
+}
+
+.kofibutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF5C64;
+    background-color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 5rem;
+    margin: 2rem;
+    transition: 100ms;
+}
+.kofibutton:hover {
+    transform: scale(1.1);
+}
+
+.someContentThatNobodyWillGiveAShitAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.audioPlayer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apButton {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5rem;
+    transition: 100ms;
+}
+.apButton:hover {
+    transform: scale(0.97);
+    background-color: aquamarine;
+}
+.apButton:active {
+    transform: scale(0.95);
+    background-color: aqua;
+}
+
+
+@keyframes unflip {
+    0% {
+        transform: scaleX(0) scale(1);
+    }
+    30% {
+        transform: scaleX(0.5) scale(1.22);
+    }
+    100% {
+        transform: scaleX(1) scale(1);
+    }
+}
+
+
+@keyframes flip {
+    0% {
+        box-shadow: 0 0 5px 5px black;
+        transform: scaleX(1) scale(1);
+    }
+    30% {
+        box-shadow: 0 1rem 3rem 2rem black;
+        transform: scaleX(0.5) scale(1.22);
+    }
+    100% {
+        box-shadow: 0 0 1px 1px black;
+        transform: scaleX(0) scale(1);
+    }
+}
+

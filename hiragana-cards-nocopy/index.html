@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,700,0,200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Hiragana Learning</title>
+</head>
+<body>
+    <h1 style="position: relative; text-align: center; font-size: 3vw; z-index: 9999;">Learn Hiragana!</h1>
+    <p id="KnowlageLevel">Knowlage of this level:<br><span id="displayClass">Novice</span></p>
+    <p id="displayPoints">Points: 0</p>
+    <section class="card-align">
+        <div id="card-box">
+            <div id="frontCard" class="card-style">
+                <p>あ</p>
+            </div>
+            <div id="backCard" class="card-style">
+                <p>a</p>
+            </div>
+        </div>
+    </section>
+    <div style="display: flex; justify-content: center; margin-bottom: 2rem;">  
+        <div class="contentAlign xurubas">
+            <p>Click to flip the card and reveal the answer!</p>
+            <p><span class="material-symbols-outlined">left_click</span><span class="material-symbols-outlined">touch_app</span></p>
+            <p id="response">a</p>
+            <button id="sendButton">Send</button><br>
+            <p>Press ENTER ↳ to answer!</p>
+            <input id="answer" type="text" autocomplete="off" oninput="this.value = this.value.toLowerCase()" maxlength="5" placeholder="Your answer">
+            <label for="answer"><span class="material-symbols-outlined arrow-up-display">arrow_upward</span> Type the letter <span class="material-symbols-outlined arrow-up-display">arrow_upward</span></label>
+            <p id="levelDisplay">Current Level</p>
+            <div class="buttons-align">
+                <button id="PreviousLevel" class="buttons">Previous Level</button>
+                <button id="NextLevel" class="buttons">Next Level</button>
+            </div>
+        </div>
+    </div>
+    <div class="someContentThatNobodyWillGiveAShitAbout">
+        <h1>@KhristopherDev</h1>
+        <button class="otherPageBtn" id="guideBtn">Guide</button>
+        <button id="reset">Reset</button>
+        <a class="otherPageBtn" href="log.html">Alpha 1.0</a>
+        </div>
+        <div class="audioPlayer">
+            <h2>Background music control</h2>
+            <div class="apButtons-align">
+                <button class="apButton" id="previousSong"><span class="material-symbols-outlined">fast_rewind</span></button>
+                <button class="apButton" id="muteSong"><span class="material-symbols-outlined">play_arrow</span><span class="material-symbols-outlined">stop</span></button>
+                <button class="apButton" id="nextSong"><span class="material-symbols-outlined">fast_forward</span></button>
+            </div>
+            <a class="kofibutton" href="https://ko-fi.com/khristopher" target="_blank"><img src="https://storage.ko-fi.com/cdn/cup-border.png" width="30px" alt="kofi"> Buy me a Coffee!</a>
+        </div>
+    <script src="js/reworkCardControl.js"></script>
+    <script src="js/bg-song.js"></script>
+</body>
+</html>
