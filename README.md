@@ -3,9 +3,9 @@
 # [Hiraga Cards](https://hiragana-cards.netlify.app/)
 **Learn easily using cards!**
 
-</div>
-
 ![Hiragana Cards Demonstration GIF](https://media1.giphy.com/media/ZXwpuUU0wngNaiWzru/200w.webp)
+
+</div>
 
 ## Description
 Project aimed at providing a free and easy access to the Japanese language.
