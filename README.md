@@ -1,4 +1,8 @@
+<div align="center">
 # [Hiraga Cards](https://hiragana-cards.netlify.app/)
+  ** Learn easily using cards! **
+  <img src="https://imgur.com/a/mpoXpd7">
+</div>
 
 ## Description
 Project aimed at providing a free and easy access to the Japanese language.
