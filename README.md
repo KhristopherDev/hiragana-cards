@@ -1,7 +1,10 @@
 <div align="center">
+ 
 # [Hiraga Cards](https://hiragana-cards.netlify.app/)
-  ** Learn easily using cards! **
+**Learn easily using cards!**
+
 </div>
+
 ![Hiragana Cards Demonstration GIF](https://media1.giphy.com/media/ZXwpuUU0wngNaiWzru/200w.webp)
 
 ## Description
