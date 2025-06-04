@@ -2,7 +2,7 @@
 # [Hiraga Cards](https://hiragana-cards.netlify.app/)
   ** Learn easily using cards! **
 </div>
-<img src="[https://imgur.com/a/mpoXpd7](https://imgur.com/a/hiragana-cards-khristopher-dev-mpoXpd7#dSCGePy)">
+<img src="https://imgur.com/a/hiragana-cards-khristopher-dev-mpoXpd7#dSCGePy">
 ## Description
 Project aimed at providing a free and easy access to the Japanese language.
 
